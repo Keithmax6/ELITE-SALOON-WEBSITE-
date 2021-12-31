@@ -1,0 +1,13 @@
+.video {
+  width: 50%;
+  height: 30%;
+}
+
+.welcometext {
+  font-family: Verdana;
+  font-size: 500%;
+  color: green;
+  margin-left: 55%;
+  position: absolute;
+  top: 20%;
+}
