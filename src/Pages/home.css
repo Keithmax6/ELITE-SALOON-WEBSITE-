@@ -9,3 +9,24 @@
   position: absolute;
   top: 0%;
 }
+
+@media only screen and (min-width: 480px) and (max-width: 1200px) {
+  body {
+    overflow-x: hidden;
+  }
+
+  .cutting {
+    position: absolute;
+    display: flex;
+    flex-direction: row;
+    width: 120%;
+    height: 120%;
+    opacity: 5.5;
+    filter: brightness(50%);
+  }
+
+  .logo {
+    width: 40%;
+    position: absolute;
+  }
+}

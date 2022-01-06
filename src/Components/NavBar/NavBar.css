@@ -1,4 +1,6 @@
 /* background-color: #7fffd4; */
+@import url("https://fonts.googleapis.com/css?family=Dosis");
+
 .main {
   display: flex;
   height: 100vh;
@@ -67,7 +69,7 @@ a.underline-hover-effect {
   height: 262px;
   color: #7aaf32;
   font-size: 30px;
-  font-family: Terminal Dosis;
+  font-family: Dosis;
   font-style: normal;
   letter-spacing: 0.15rem;
 }
@@ -92,4 +94,30 @@ a.underline-hover-effect {
   position: absolute;
   bottom: -150px;
   justify-content: space-between;
+}
+
+@media only screen and (min-width: 480px) and (max-width: 1200px) {
+  .sidebody {
+    background-color: red;
+  }
+  .weknow {
+    position: absolute;
+    top: 20%;
+    left: 90%;
+    right: 90%;
+    transform: translate(-50%, 50%);
+  }
+
+  .slogan {
+    font-size: 20px;
+    width: 360px;
+  }
+
+  .bookbutton {
+    width: 40%;
+  }
+
+  .navhead {
+    display: none;
+  }
 }
