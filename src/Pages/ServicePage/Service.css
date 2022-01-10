@@ -6,8 +6,16 @@ body {
 
 .serviceheader {
   font-family: Dosis;
-  font-size: 26px;
+  font-size: 56px;
   color: #fef0a3;
   position: absolute;
   left: 38%;
+}
+
+.section1 {
+}
+
+.haircut {
+  font-family: Dosis;
+  color: #fef0a3;
 }
