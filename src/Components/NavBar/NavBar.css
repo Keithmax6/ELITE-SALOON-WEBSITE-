@@ -22,7 +22,7 @@
   height: 81px;
   margin-top: 0%;
   position: absolute;
-  right: 25px;
+  right: 29px;
 }
 
 li {
@@ -96,15 +96,28 @@ a.underline-hover-effect {
   justify-content: space-between;
 }
 
-@media only screen and (min-width: 480px) and (max-width: 1200px) {
-  .sidebody {
-    background-color: red;
+/* //////////////////////////////////// */
+/* and (max-width: 1200px)  */
+
+/* @media only screen and (max-width: 1200px) and (min-width: 300px) {
+  body {
+    margin: 0%;
+    padding: 0%;
   }
+
+  .sidebody {
+    /* background-color: tomato; */
+/* }
+
+  .navhead {
+    display: none;
+  }
+
   .weknow {
     position: absolute;
-    top: 20%;
-    left: 90%;
-    right: 90%;
+    top: 15%;
+    left: 75%;
+    right: 99%;
     transform: translate(-50%, 50%);
   }
 
@@ -117,7 +130,21 @@ a.underline-hover-effect {
     width: 40%;
   }
 
+  li {
+    flex-direction: column;
+    height: auto;
+    width: 100%;
+  }
+} */
+
+@media screen and (max-width: 500px) {
   .navhead {
     display: none;
+  }
+
+  .weknow {
+    position: absolute;
+    left: 70%;
+    top: 30%;
   }
 }

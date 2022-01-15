@@ -1,7 +1,7 @@
 .cutting {
   position: absolute;
-  width: 37%;
-  height: 100%;
+  width: 38%;
+  height: 101%;
 }
 
 .logo {
@@ -10,23 +10,26 @@
   top: 0%;
 }
 
-@media only screen and (min-width: 480px) and (max-width: 1200px) {
-  body {
-    overflow-x: hidden;
-  }
-
+@media screen and (max-width: 500px) {
   .cutting {
     position: absolute;
-    display: flex;
-    flex-direction: row;
-    width: 120%;
+    width: 100%;
+    height: 110%;
+  }
+}
+
+/*  and (max-width: 400px) */
+
+/* @media only screen and (max-width: 1200px) and (min-width: 400px) {
+  .cutting {
+    width: 100%;
     height: 120%;
     opacity: 5.5;
     filter: brightness(50%);
   }
 
   .logo {
-    width: 40%;
+    width: 15%;
     position: absolute;
   }
-}
+} */
